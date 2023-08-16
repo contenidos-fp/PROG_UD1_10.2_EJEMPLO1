@@ -15,7 +15,7 @@
   text-decoration: none;
   color: #fff;
   font-family: 'Nunito', sans-serif;;
-  font-size: 10pt;
+  font-size: 8pt;
   font-weight: 700;
   width: 100%;
   text-align: left;
@@ -44,14 +44,14 @@
 #accordion .accordion-body {
   padding: 10px 20px;
   margin-bottom: 8px;
- border-radius: 10px;
+ border-radius: 6px;
  background-color: white;
- box-shadow: 0px 2px 10px -10px #1c447c;
+ box-shadow: 0px 2px 10px -6px #1c447c;
  font-family: 'Nunito', sans-serif;;
  letter-spacing: 0px;
   word-spacing: normal; 
   line-height: 1.15; 
- font-size: 10pt;
+ font-size: 8pt;
  color:#010101;
  text-align: justify;
 }
@@ -61,7 +61,7 @@
  letter-spacing: 0px;
  word-spacing: normal; 
  line-height: 1.2; 
- font-size: 10pt;
+ font-size: 8pt;
  color:#010101;
  text-align: justify;
  
@@ -86,7 +86,7 @@
   content: "";
   padding-right: 5px;
   font-family: "'Nunito', sans-serif;";
-  font-size: 10pt;
+  font-size: 8pt;
   font-style: normal;
   color: #213744;
 }
@@ -128,7 +128,7 @@
 }
 
 
-.lupa:hover{ filter: opacity(.10);cursor: pointer;
+.lupa:hover{ filter: opacity(.6);cursor: pointer;
  
   transition: .5s ease;
 }
@@ -154,7 +154,7 @@
 #leyenda {
  font-size:8pt;
  font-family: 'Nunito', sans-serif;;
- font-weight: 1000;
+ font-weight: 600;
 letter-spacing: 0.1px;
 color:#1A4A73;
  text-align: center;
@@ -179,7 +179,7 @@ img:hover{filter: opacity(.8);cursor: pointer;
 }
 
 
-.lupa:hover{ filter: opacity(.10);cursor: pointer;
+.lupa:hover{ filter: opacity(.6);cursor: pointer;
  
   transition: .5s ease;
 }
@@ -195,7 +195,7 @@ img:hover{filter: opacity(.8);cursor: pointer;
 }
 
 
-.lupapeq:hover{ filter: opacity(.10);cursor: pointer;
+.lupapeq:hover{ filter: opacity(.6);cursor: pointer;
  
   transition: .5s ease;
 }
@@ -214,29 +214,29 @@ img:hover{filter: opacity(.8);cursor: pointer;
 
 
 
-@media screen and (max-width:5104px){#accordion .accordion-title  {font-size:10pt;} }
+@media screen and (max-width:564px){#accordion .accordion-title  {font-size:8pt;} }
 
-@media screen and (max-width:418px){#accordion .accordion-title {font-size:10pt;text-align: left;} }
+@media screen and (max-width:418px){#accordion .accordion-title {font-size:8pt;text-align: left;} }
 
-@media screen and (max-width:330px){#accordion .accordion-title {font-size:10pt;text-align: left;} }
-
-
-@media screen and (max-width:5104px){#accordion .accordion-body {font-size:10pt;} }
-
-@media screen and (max-width:418px){#accordion .accordion-body{font-size:10pt;text-align: left;} }
-
-@media screen and (max-width:330px){#accordion .accordion-body {font-size:10pt;text-align: left;} }
+@media screen and (max-width:330px){#accordion .accordion-title {font-size:8pt;text-align: left;} }
 
 
+@media screen and (max-width:564px){#accordion .accordion-body {font-size:8pt;} }
+
+@media screen and (max-width:418px){#accordion .accordion-body{font-size:8pt;text-align: left;} }
+
+@media screen and (max-width:330px){#accordion .accordion-body {font-size:8pt;text-align: left;} }
 
 
-@media screen and (max-width:5104px){.parrafo{font-size:18px;margin-left: 0px; margin-right: 0px; }
+
+
+@media screen and (max-width:564px){.parrafo{font-size:18px;margin-left: 0px; margin-right: 0px; }
 
 @media screen and (max-width:418px){.parrafo{font-size:14px;margin-left: 0px; margin-right: 0px;}
 
 
 
-@media screen and (max-width:5104px){#leyenda {font-size:8pt;} }
+@media screen and (max-width:564px){#leyenda {font-size:8pt;} }
 
 @media screen and (max-width:418px){#leyenda{font-size:8pt;} }
 
@@ -245,10 +245,10 @@ img:hover{filter: opacity(.8);cursor: pointer;
 
 
 @media screen and (max-width:418px){.lupapeq{width: 40px; height: 40px;} }
-@media screen and (max-width:418px){.lupa{width: 310px; height: 310px;} }
+@media screen and (max-width:418px){.lupa{width: 36px; height: 36px;} }
 
 
-@media screen and (max-width:5104px){.container{padding-left: 4px; padding-right: 4px; }
+@media screen and (max-width:564px){.container{padding-left: 4px; padding-right: 4px; }
 
 @media screen and (max-width:418px){.container{padding-left: 0px; padding-right: 0px;}
 
